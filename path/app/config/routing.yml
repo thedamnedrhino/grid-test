@@ -1,0 +1,4 @@
+test_grid:
+    resource: "@TestGridBundle/Resources/config/routing.yml"
+    prefix:   /
+

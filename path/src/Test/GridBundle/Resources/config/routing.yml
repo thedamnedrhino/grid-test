@@ -1,0 +1,6 @@
+test_grid_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TestGridBundle:Default:index }
+first_grid_test:
+    path: /first
+    defaults: {_controller: TestGridBundle:DataGrid:firstGrid }

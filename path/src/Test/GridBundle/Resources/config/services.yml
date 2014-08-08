@@ -1,0 +1,12 @@
+parameters:
+#    test_grid.example.class: Test\GridBundle\Example
+    grid.picture_column.class: Test\GridBundle\Grid\PictureColumn
+
+services:
+#    test_grid.example:
+#        class: %test_grid.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+    grid.picture_column:
+        class: %grid.picture_column.class%
+        tags: 
+            - { name: grid.column.extension }

@@ -1,0 +1,12 @@
+{% extends 'APYDataGridBundle::blocks.html.twig' %}
+
+{#{% block grid_column_id_picture_cell %}
+<img src="data:image/jpeg;base64,{{ render(controller('TestGridBundle:DataGrid:displayImage',
+		{ 'image': value })) }}"  > </img>
+{% endblock grid_column_id_picture_cell %}#}
+
+{% block grid_column_type_picture_cell %}
+<img src="data:image/jpeg;base64,{{ render(controller('TestGridBundle:DataGrid:displayImage',
+		{ 'image': value })) }}"  > </img>
+{% endblock grid_column_type_picture_cell %}
+
